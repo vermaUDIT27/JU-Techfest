@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #F8F9FA;
+    color: #1F242E;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbar in Pune basalt / slate tones */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F3F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3D7DC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8AFB9;
+}
+
+/* Subtle basalt / geometric architectural pattern */
+.bg-basalt-subtle {
+  background-image: radial-gradient(#D3D7DC 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+.bg-basalt-dark {
+  background-image: radial-gradient(rgba(211, 215, 220, 0.15) 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Leaflet Map overrides for Pune civic palette */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #F1F3F5;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF;
+  color: #1F242E;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(21, 24, 32, 0.15), 0 8px 10px -6px rgba(21, 24, 32, 0.1);
+  border: 1px solid #E5E8EB;
+  padding: 0;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF;
+  border: 1px solid #E5E8EB;
+}
+
+/* Active navigation tab indicator */
+.civic-tab-active {
+  position: relative;
+}
+.civic-tab-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 3.5px;
+  background-color: #B8651B; /* Muted saffron */
+  border-radius: 0 3px 3px 0;
+}

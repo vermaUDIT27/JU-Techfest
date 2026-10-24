@@ -1,0 +1,2602 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_name": "WasteWise Pune Master Operations Dataset",
+  "description": "Consolidated, app-oriented master dataset assembled from six supplied CSV files. Source values are preserved and ambiguous or missing operational data is explicitly flagged.",
+  "generated_at_utc": "2026-10-23T20:21:30.391589+00:00",
+  "city": {
+    "city_id": "pune",
+    "name": "Pune",
+    "country": "India",
+    "state": "Maharashtra",
+    "administrative_hierarchy": [
+      "city",
+      "zone",
+      "ward",
+      "colony",
+      "collection_point"
+    ],
+    "source_supported_zone_count": 15,
+    "source_supported_ward_count": 42,
+    "zones": [
+      {
+        "zone_id": "pune-zone-01",
+        "name": "Aundh Baner",
+        "ward_ids": [
+          "pune-ward-8",
+          "pune-ward-9"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-02",
+        "name": "Bhawadi Peth",
+        "ward_ids": [
+          "pune-ward-17",
+          "pune-ward-18",
+          "pune-ward-19"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-03",
+        "name": "Bibwewadi",
+        "ward_ids": [
+          "pune-ward-28",
+          "pune-ward-36",
+          "pune-ward-37"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-04",
+        "name": "Dhanawadi Sahakarnagar",
+        "ward_ids": [
+          "pune-ward-35",
+          "pune-ward-39",
+          "pune-ward-40"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-05",
+        "name": "Dhole Patil Road",
+        "ward_ids": [
+          "pune-ward-20",
+          "pune-ward-21"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-06",
+        "name": "Hadapsar Mundhwa",
+        "ward_ids": [
+          "pune-ward-22",
+          "pune-ward-23",
+          "pune-ward-26"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-07",
+        "name": "Kasba Vishrambaugh Wada",
+        "ward_ids": [
+          "pune-ward-15",
+          "pune-ward-16",
+          "pune-ward-39"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-08",
+        "name": "Kondhwa Yewalewadi",
+        "ward_ids": [
+          "pune-ward-38",
+          "pune-ward-41"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-09",
+        "name": "Kothrud Bavdhan",
+        "ward_ids": [
+          "pune-ward-10",
+          "pune-ward-11",
+          "pune-ward-12"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-10",
+        "name": "Nagar Road-Wadgaon Sheri",
+        "ward_ids": [
+          "pune-ward-3",
+          "pune-ward-4",
+          "pune-ward-5"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-11",
+        "name": "Shivaji Nagar-Ghole Road",
+        "ward_ids": [
+          "pune-ward-7",
+          "pune-ward-14"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-12",
+        "name": "Sinhagad Road",
+        "ward_ids": [
+          "pune-ward-30",
+          "pune-ward-33",
+          "pune-ward-34"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-13",
+        "name": "Wanawadi Ramtekdi",
+        "ward_ids": [
+          "pune-ward-24",
+          "pune-ward-25",
+          "pune-ward-27"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-14",
+        "name": "Warje karve Nagar",
+        "ward_ids": [
+          "pune-ward-13",
+          "pune-ward-31",
+          "pune-ward-32"
+        ]
+      },
+      {
+        "zone_id": "pune-zone-15",
+        "name": "Yerwada kalas Dhanori",
+        "ward_ids": [
+          "pune-ward-1",
+          "pune-ward-2",
+          "pune-ward-6"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "ward_records": 42,
+    "wards_with_zone_assignment": 41,
+    "wards_without_unambiguous_zone_assignment": 1,
+    "reported_households_sum": 4294227,
+    "reported_waste_tonnes_per_day_sum": 1592.43,
+    "reported_street_bin_count_sum": 5569,
+    "d2d_households_listed_sum": 939121,
+    "d2d_households_under_daily_collection_sum": 939121,
+    "vehicle_count_records_populated": 15,
+    "disposal_sites_records": 1,
+    "citywide_historical_records": 10
+  },
+  "wards": [
+    {
+      "ward_id": "pune-ward-3",
+      "city": "Pune",
+      "zone_name": "Nagar Road-Wadgaon Sheri",
+      "zone_name_raw": "Nagar Road-Wadgaon Sheri",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Viman Nagar",
+      "ward_number_raw": "3",
+      "households": {
+        "reported_total_households": 109555,
+        "reported_households_with_waste_segregation": 109555,
+        "d2d_households_listed": 23574,
+        "d2d_households_under_daily_collection": 23574,
+        "d2d_listed_share_of_reported_households_pct": 21.52
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 27.21,
+        "vehicle_dataset_waste_quantity_tpd_raw": 27.2,
+        "street_sweeping_waste_tpd": 4.3,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 170,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 260,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1135350
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-4",
+      "city": "Pune",
+      "zone_name": "Nagar Road-Wadgaon Sheri",
+      "zone_name_raw": "Nagar Road-Wadgaon Sheri",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Kharadi-Chandan Nagar",
+      "ward_number_raw": "4",
+      "households": {
+        "reported_total_households": 101503,
+        "reported_households_with_waste_segregation": 101503,
+        "d2d_households_listed": 33200,
+        "d2d_households_under_daily_collection": 33200,
+        "d2d_listed_share_of_reported_households_pct": 32.71
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 29.28,
+        "vehicle_dataset_waste_quantity_tpd_raw": 29.3,
+        "street_sweeping_waste_tpd": 6.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 120,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1135350
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-5",
+      "city": "Pune",
+      "zone_name": "Nagar Road-Wadgaon Sheri",
+      "zone_name_raw": "Nagar Road-Wadgaon Sheri",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Wadgaon-Sheri-Kalyani nagar",
+      "ward_number_raw": "5",
+      "households": {
+        "reported_total_households": 107795,
+        "reported_households_with_waste_segregation": 107795,
+        "d2d_households_listed": 20742,
+        "d2d_households_under_daily_collection": 20742,
+        "d2d_listed_share_of_reported_households_pct": 19.24
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 23.67,
+        "vehicle_dataset_waste_quantity_tpd_raw": 23.7,
+        "street_sweeping_waste_tpd": 3.8,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 80,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1135350
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-1",
+      "city": "Pune",
+      "zone_name": "Yerwada kalas Dhanori",
+      "zone_name_raw": "Yerwada kalas Dhanori",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Kalas-Dhanori",
+      "ward_number_raw": "1",
+      "households": {
+        "reported_total_households": 151809,
+        "reported_households_with_waste_segregation": 151809,
+        "d2d_households_listed": 23959,
+        "d2d_households_under_daily_collection": 23959,
+        "d2d_listed_share_of_reported_households_pct": 15.78
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 36.96,
+        "vehicle_dataset_waste_quantity_tpd_raw": 37,
+        "street_sweeping_waste_tpd": 4.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 40,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 115,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065652
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-2",
+      "city": "Pune",
+      "zone_name": "Yerwada kalas Dhanori",
+      "zone_name_raw": "Yerwada kalas Dhanori",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Phule Nagar-Nagpur Chwal",
+      "ward_number_raw": "2",
+      "households": {
+        "reported_total_households": 94845,
+        "reported_households_with_waste_segregation": 94845,
+        "d2d_households_listed": 22198,
+        "d2d_households_under_daily_collection": 22198,
+        "d2d_listed_share_of_reported_households_pct": 23.4
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 37.54,
+        "vehicle_dataset_waste_quantity_tpd_raw": 37.5,
+        "street_sweeping_waste_tpd": 4.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 92,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065652
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-6",
+      "city": "Pune",
+      "zone_name": "Yerwada kalas Dhanori",
+      "zone_name_raw": "Yerwada kalas Dhanori",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Yerawada",
+      "ward_number_raw": "6",
+      "households": {
+        "reported_total_households": 35582,
+        "reported_households_with_waste_segregation": 35582,
+        "d2d_households_listed": 7782,
+        "d2d_households_under_daily_collection": 7782,
+        "d2d_listed_share_of_reported_households_pct": 21.87
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 22.35,
+        "vehicle_dataset_waste_quantity_tpd_raw": 22.3,
+        "street_sweeping_waste_tpd": 1.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 100,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065652
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-20",
+      "city": "Pune",
+      "zone_name": "Dhole Patil Road",
+      "zone_name_raw": "Dhole Patil Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Tadiwala Road-Sasoon Hospital",
+      "ward_number_raw": "20",
+      "households": {
+        "reported_total_households": 90488,
+        "reported_households_with_waste_segregation": 90488,
+        "d2d_households_listed": 21584,
+        "d2d_households_under_daily_collection": 21584,
+        "d2d_listed_share_of_reported_households_pct": 23.85
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 39.18,
+        "vehicle_dataset_waste_quantity_tpd_raw": 39.2,
+        "street_sweeping_waste_tpd": 3.9,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 44,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 85,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1354870
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-21",
+      "city": "Pune",
+      "zone_name": "Dhole Patil Road",
+      "zone_name_raw": "Dhole Patil Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Koregain Park-Ghorpadi",
+      "ward_number_raw": "21",
+      "households": {
+        "reported_total_households": 102118,
+        "reported_households_with_waste_segregation": 102118,
+        "d2d_households_listed": 26093,
+        "d2d_households_under_daily_collection": 26093,
+        "d2d_listed_share_of_reported_households_pct": 25.55
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 36.49,
+        "vehicle_dataset_waste_quantity_tpd_raw": 36.5,
+        "street_sweeping_waste_tpd": 4.8,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 126,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1354870
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-8",
+      "city": "Pune",
+      "zone_name": "Aundh Baner",
+      "zone_name_raw": "Aundh Baner",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Aundh-Bopodi",
+      "ward_number_raw": "8",
+      "households": {
+        "reported_total_households": 229155,
+        "reported_households_with_waste_segregation": 229155,
+        "d2d_households_listed": 22332,
+        "d2d_households_under_daily_collection": 22332,
+        "d2d_listed_share_of_reported_households_pct": 9.75
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 28.54,
+        "vehicle_dataset_waste_quantity_tpd_raw": 28.5,
+        "street_sweeping_waste_tpd": 4.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 284,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 100,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 2487740
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-9",
+      "city": "Pune",
+      "zone_name": "Aundh Baner",
+      "zone_name_raw": "Aundh Baner",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Baner-Balewadi-pashan",
+      "ward_number_raw": "9",
+      "households": {
+        "reported_total_households": 126086,
+        "reported_households_with_waste_segregation": 126086,
+        "d2d_households_listed": 50115,
+        "d2d_households_under_daily_collection": 50115,
+        "d2d_listed_share_of_reported_households_pct": 39.75
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 41.86,
+        "vehicle_dataset_waste_quantity_tpd_raw": 41.9,
+        "street_sweeping_waste_tpd": 9.2,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 164,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 2487740
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-7",
+      "city": "Pune",
+      "zone_name": "Shivaji Nagar-Ghole Road",
+      "zone_name_raw": "Shivaji Nagar-Ghole Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Pune University-Wakdewadi",
+      "ward_number_raw": "7",
+      "households": {
+        "reported_total_households": 63866,
+        "reported_households_with_waste_segregation": 63866,
+        "d2d_households_listed": 19789,
+        "d2d_households_under_daily_collection": 19789,
+        "d2d_listed_share_of_reported_households_pct": 30.99
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 49.79,
+        "vehicle_dataset_waste_quantity_tpd_raw": 49.8,
+        "street_sweeping_waste_tpd": 3.6,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 181,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 130,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1176294
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-14",
+      "city": "Pune",
+      "zone_name": "Shivaji Nagar-Ghole Road",
+      "zone_name_raw": "Shivaji Nagar-Ghole Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Deccan Gymkhana-Model Colony",
+      "ward_number_raw": "14",
+      "households": {
+        "reported_total_households": 101222,
+        "reported_households_with_waste_segregation": 101222,
+        "d2d_households_listed": 22450,
+        "d2d_households_under_daily_collection": 22450,
+        "d2d_listed_share_of_reported_households_pct": 22.18
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 53.87,
+        "vehicle_dataset_waste_quantity_tpd_raw": 53.9,
+        "street_sweeping_waste_tpd": 4.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 451,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1176294
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-10",
+      "city": "Pune",
+      "zone_name": "Kothrud Bavdhan",
+      "zone_name_raw": "Kothrud Bavdhan",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Bavdhan-Kothrud Depot",
+      "ward_number_raw": "10",
+      "households": {
+        "reported_total_households": 99729,
+        "reported_households_with_waste_segregation": 99729,
+        "d2d_households_listed": 27574,
+        "d2d_households_under_daily_collection": 27574,
+        "d2d_listed_share_of_reported_households_pct": 27.65
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 40.73,
+        "vehicle_dataset_waste_quantity_tpd_raw": 40.7,
+        "street_sweeping_waste_tpd": 5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 125,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 120,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065868
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-11",
+      "city": "Pune",
+      "zone_name": "Kothrud Bavdhan",
+      "zone_name_raw": "Kothrud Bavdhan",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Rambaugh Colony-Shivtirth Nagar",
+      "ward_number_raw": "11",
+      "households": {
+        "reported_total_households": 102656,
+        "reported_households_with_waste_segregation": 102656,
+        "d2d_households_listed": 13967,
+        "d2d_households_under_daily_collection": 13967,
+        "d2d_listed_share_of_reported_households_pct": 13.61
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 14.64,
+        "vehicle_dataset_waste_quantity_tpd_raw": 14.6,
+        "street_sweeping_waste_tpd": 2.6,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 322,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065868
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-12",
+      "city": "Pune",
+      "zone_name": "Kothrud Bavdhan",
+      "zone_name_raw": "Kothrud Bavdhan",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Mayur Colony-Dahanukar Colony",
+      "ward_number_raw": "12",
+      "households": {
+        "reported_total_households": 87673,
+        "reported_households_with_waste_segregation": 87673,
+        "d2d_households_listed": 22137,
+        "d2d_households_under_daily_collection": 22137,
+        "d2d_listed_share_of_reported_households_pct": 25.25
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 39.69,
+        "vehicle_dataset_waste_quantity_tpd_raw": 39.7,
+        "street_sweeping_waste_tpd": 4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 147,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1065868
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-35",
+      "city": "Pune",
+      "zone_name": "Dhanawadi Sahakarnagar",
+      "zone_name_raw": "Dhanawadi Sahakarnagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Sahakarnagar-Padmavati",
+      "ward_number_raw": "35",
+      "households": {
+        "reported_total_households": 71929,
+        "reported_households_with_waste_segregation": 71929,
+        "d2d_households_listed": 18842,
+        "d2d_households_under_daily_collection": 18842,
+        "d2d_listed_share_of_reported_households_pct": 26.2
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 49.92,
+        "vehicle_dataset_waste_quantity_tpd_raw": 49.9,
+        "street_sweeping_waste_tpd": 3.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 131,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 150,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1344129
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-39",
+      "city": "Pune",
+      "zone_name": "Dhanawadi Sahakarnagar",
+      "zone_name_raw": "Dhanawadi Sahakarnagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Dhankawadi-Ambegaon Pathar",
+      "ward_number_raw": "39",
+      "households": {
+        "reported_total_households": 59265,
+        "reported_households_with_waste_segregation": 59265,
+        "d2d_households_listed": 22778,
+        "d2d_households_under_daily_collection": 22778,
+        "d2d_listed_share_of_reported_households_pct": 38.43
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 44,
+        "vehicle_dataset_waste_quantity_tpd_raw": 44,
+        "street_sweeping_waste_tpd": 4.2,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 31,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1344129
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-40",
+      "city": "Pune",
+      "zone_name": "Dhanawadi Sahakarnagar",
+      "zone_name_raw": "Dhanawadi Sahakarnagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Dutta Nagar-Katraj Gaothan",
+      "ward_number_raw": "40",
+      "households": {
+        "reported_total_households": 62319,
+        "reported_households_with_waste_segregation": 62319,
+        "d2d_households_listed": 27246,
+        "d2d_households_under_daily_collection": 27246,
+        "d2d_listed_share_of_reported_households_pct": 43.72
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 44.73,
+        "vehicle_dataset_waste_quantity_tpd_raw": 44.7,
+        "street_sweeping_waste_tpd": 5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 100,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1344129
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-30",
+      "city": "Pune",
+      "zone_name": "Sinhagad Road",
+      "zone_name_raw": "Sinhagad Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Janta Vasahat-Duttawadi",
+      "ward_number_raw": "30",
+      "households": {
+        "reported_total_households": 15753,
+        "reported_households_with_waste_segregation": 15753,
+        "d2d_households_listed": 5987,
+        "d2d_households_under_daily_collection": 5987,
+        "d2d_listed_share_of_reported_households_pct": 38.01
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 23.57,
+        "vehicle_dataset_waste_quantity_tpd_raw": 23.6,
+        "street_sweeping_waste_tpd": 1.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 100,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 220,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1075236
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-33",
+      "city": "Pune",
+      "zone_name": "Sinhagad Road",
+      "zone_name_raw": "Sinhagad Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Wadgaon Dhayri-Wadgaon Budruk",
+      "ward_number_raw": "33",
+      "households": {
+        "reported_total_households": 98696,
+        "reported_households_with_waste_segregation": 98696,
+        "d2d_households_listed": 57007,
+        "d2d_households_under_daily_collection": 57007,
+        "d2d_listed_share_of_reported_households_pct": 57.76
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 44.74,
+        "vehicle_dataset_waste_quantity_tpd_raw": 44.7,
+        "street_sweeping_waste_tpd": 10.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 108,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1075236
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-34",
+      "city": "Pune",
+      "zone_name": "Sinhagad Road",
+      "zone_name_raw": "Sinhagad Road",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Suncity-Hingne Khurd",
+      "ward_number_raw": "34",
+      "households": {
+        "reported_total_households": 119313,
+        "reported_households_with_waste_segregation": 119313,
+        "d2d_households_listed": 24760,
+        "d2d_households_under_daily_collection": 24760,
+        "d2d_listed_share_of_reported_households_pct": 20.75
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 29.11,
+        "vehicle_dataset_waste_quantity_tpd_raw": 29.1,
+        "street_sweeping_waste_tpd": 4.5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 84,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1075236
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-13",
+      "city": "Pune",
+      "zone_name": "Warje karve Nagar",
+      "zone_name_raw": "Warje karve Nagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Erandawana-Happy Colony",
+      "ward_number_raw": "13",
+      "households": {
+        "reported_total_households": 96503,
+        "reported_households_with_waste_segregation": 96503,
+        "d2d_households_listed": 21810,
+        "d2d_households_under_daily_collection": 21810,
+        "d2d_listed_share_of_reported_households_pct": 22.6
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 43.47,
+        "vehicle_dataset_waste_quantity_tpd_raw": 43.5,
+        "street_sweeping_waste_tpd": 4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 110,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 160,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1290797
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-31",
+      "city": "Pune",
+      "zone_name": "Warje karve Nagar",
+      "zone_name_raw": "Warje karve Nagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Karvenagar",
+      "ward_number_raw": "31",
+      "households": {
+        "reported_total_households": 102891,
+        "reported_households_with_waste_segregation": 102891,
+        "d2d_households_listed": 20275,
+        "d2d_households_under_daily_collection": 20275,
+        "d2d_listed_share_of_reported_households_pct": 19.71
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 37.05,
+        "vehicle_dataset_waste_quantity_tpd_raw": 37,
+        "street_sweeping_waste_tpd": 3.7,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 82,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1290797
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-32",
+      "city": "Pune",
+      "zone_name": "Warje karve Nagar",
+      "zone_name_raw": "Warje karve Nagar",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Warje-Malwadi",
+      "ward_number_raw": "32",
+      "households": {
+        "reported_total_households": 35058,
+        "reported_households_with_waste_segregation": 35058,
+        "d2d_households_listed": 24221,
+        "d2d_households_under_daily_collection": 24221,
+        "d2d_listed_share_of_reported_households_pct": 69.09
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 39.14,
+        "vehicle_dataset_waste_quantity_tpd_raw": 39.1,
+        "street_sweeping_waste_tpd": 4.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 150,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1290797
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-22",
+      "city": "Pune",
+      "zone_name": "Hadapsar Mundhwa",
+      "zone_name_raw": "Hadapsar Mundhwa",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Mundhwa-Magarpatta City",
+      "ward_number_raw": "22",
+      "households": {
+        "reported_total_households": 112268,
+        "reported_households_with_waste_segregation": 112268,
+        "d2d_households_listed": 21105,
+        "d2d_households_under_daily_collection": 21105,
+        "d2d_listed_share_of_reported_households_pct": 18.8
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 26.99,
+        "vehicle_dataset_waste_quantity_tpd_raw": 27,
+        "street_sweeping_waste_tpd": 3.9,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 152,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 260,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1608846
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-23",
+      "city": "Pune",
+      "zone_name": "Hadapsar Mundhwa",
+      "zone_name_raw": "Hadapsar Mundhwa",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Hadapsar Gaothan-Satav Wadi",
+      "ward_number_raw": "23",
+      "households": {
+        "reported_total_households": 187584,
+        "reported_households_with_waste_segregation": 187584,
+        "d2d_households_listed": 22502,
+        "d2d_households_under_daily_collection": 22502,
+        "d2d_listed_share_of_reported_households_pct": 12.0
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 25.44,
+        "vehicle_dataset_waste_quantity_tpd_raw": 25.4,
+        "street_sweeping_waste_tpd": 4.1,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 110,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1608846
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-26",
+      "city": "Pune",
+      "zone_name": "Hadapsar Mundhwa",
+      "zone_name_raw": "Hadapsar Mundhwa",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Mohammad Wadi-Kausar Bhugh",
+      "ward_number_raw": "26",
+      "households": {
+        "reported_total_households": 110633,
+        "reported_households_with_waste_segregation": 110633,
+        "d2d_households_listed": 41023,
+        "d2d_households_under_daily_collection": 41023,
+        "d2d_listed_share_of_reported_households_pct": 37.08
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 48.43,
+        "vehicle_dataset_waste_quantity_tpd_raw": 48.4,
+        "street_sweeping_waste_tpd": 7.5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 486,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1608846
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-24",
+      "city": "Pune",
+      "zone_name": "Wanawadi Ramtekdi",
+      "zone_name_raw": "Wanawadi Ramtekdi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Ramtekdi-Sasane Nagar",
+      "ward_number_raw": "24",
+      "households": {
+        "reported_total_households": 83988,
+        "reported_households_with_waste_segregation": 83988,
+        "d2d_households_listed": 7667,
+        "d2d_households_under_daily_collection": 7667,
+        "d2d_listed_share_of_reported_households_pct": 9.13
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 22.74,
+        "vehicle_dataset_waste_quantity_tpd_raw": 22.7,
+        "street_sweeping_waste_tpd": 1.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 52,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 125,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1089427
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-25",
+      "city": "Pune",
+      "zone_name": "Wanawadi Ramtekdi",
+      "zone_name_raw": "Wanawadi Ramtekdi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Wanawadi",
+      "ward_number_raw": "25",
+      "households": {
+        "reported_total_households": 69868,
+        "reported_households_with_waste_segregation": 69868,
+        "d2d_households_listed": 24552,
+        "d2d_households_under_daily_collection": 24552,
+        "d2d_listed_share_of_reported_households_pct": 35.14
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 43.73,
+        "vehicle_dataset_waste_quantity_tpd_raw": 43.7,
+        "street_sweeping_waste_tpd": 4.5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 225,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1089427
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-27",
+      "city": "Pune",
+      "zone_name": "Wanawadi Ramtekdi",
+      "zone_name_raw": "Wanawadi Ramtekdi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Kondhwa Khurd-Mittha Nagar",
+      "ward_number_raw": "27",
+      "households": {
+        "reported_total_households": 27378,
+        "reported_households_with_waste_segregation": 27378,
+        "d2d_households_listed": 24195,
+        "d2d_households_under_daily_collection": 24195,
+        "d2d_listed_share_of_reported_households_pct": 88.37
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 45.67,
+        "vehicle_dataset_waste_quantity_tpd_raw": 45.7,
+        "street_sweeping_waste_tpd": 4.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 181,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1089427
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-38",
+      "city": "Pune",
+      "zone_name": "Kondhwa Yewalewadi",
+      "zone_name_raw": "Kondhwa Yewalewadi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Balaji Nagar-Rajiv Gandhi Nagar",
+      "ward_number_raw": "38",
+      "households": {
+        "reported_total_households": 92709,
+        "reported_households_with_waste_segregation": 92709,
+        "d2d_households_listed": 23605,
+        "d2d_households_under_daily_collection": 23605,
+        "d2d_listed_share_of_reported_households_pct": 25.46
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 35.74,
+        "vehicle_dataset_waste_quantity_tpd_raw": 35.7,
+        "street_sweeping_waste_tpd": 4.3,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 108,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 120,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1297010
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-41",
+      "city": "Pune",
+      "zone_name": "Kondhwa Yewalewadi",
+      "zone_name_raw": "Kondhwa Yewalewadi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Kondhwa Budruk-Yewalewadi",
+      "ward_number_raw": "41",
+      "households": {
+        "reported_total_households": 110751,
+        "reported_households_with_waste_segregation": 110751,
+        "d2d_households_listed": 27532,
+        "d2d_households_under_daily_collection": 27532,
+        "d2d_listed_share_of_reported_households_pct": 24.86
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 55.21,
+        "vehicle_dataset_waste_quantity_tpd_raw": 55.2,
+        "street_sweeping_waste_tpd": 5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 155,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1297010
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-15",
+      "city": "Pune",
+      "zone_name": "Kasba Vishrambaugh Wada",
+      "zone_name_raw": "Kasba Vishrambaugh Wada",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Shaniwar Peth-Sadashiv Peth",
+      "ward_number_raw": "15",
+      "households": {
+        "reported_total_households": 260669,
+        "reported_households_with_waste_segregation": 260669,
+        "d2d_households_listed": 19173,
+        "d2d_households_under_daily_collection": 19173,
+        "d2d_listed_share_of_reported_households_pct": 7.36
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 39.5,
+        "vehicle_dataset_waste_quantity_tpd_raw": 39.5,
+        "street_sweeping_waste_tpd": 3.5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 140,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 110,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1243052
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-16",
+      "city": "Pune",
+      "zone_name": "Kasba Vishrambaugh Wada",
+      "zone_name_raw": "Kasba Vishrambaugh Wada",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Kasba Peth-Somwarpeth",
+      "ward_number_raw": "16",
+      "households": {
+        "reported_total_households": 113217,
+        "reported_households_with_waste_segregation": 113217,
+        "d2d_households_listed": 15730,
+        "d2d_households_under_daily_collection": 15730,
+        "d2d_listed_share_of_reported_households_pct": 13.89
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 29.98,
+        "vehicle_dataset_waste_quantity_tpd_raw": 30,
+        "street_sweeping_waste_tpd": 2.9,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 51,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1243052
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-39",
+      "city": "Pune",
+      "zone_name": "Kasba Vishrambaugh Wada",
+      "zone_name_raw": "Kasba Vishrambaugh Wada",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Navi Peth-Parvati",
+      "ward_number_raw": "39",
+      "households": {
+        "reported_total_households": 86159,
+        "reported_households_with_waste_segregation": 86159,
+        "d2d_households_listed": 15280,
+        "d2d_households_under_daily_collection": 15280,
+        "d2d_listed_share_of_reported_households_pct": 17.73
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 46.32,
+        "vehicle_dataset_waste_quantity_tpd_raw": 46,
+        "street_sweeping_waste_tpd": 2.8,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 58,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1243052
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-17",
+      "city": "Pune",
+      "zone_name": "Bhawadi Peth",
+      "zone_name_raw": "Bhawadi Peth",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Rasta Peth-Ravivar Peth",
+      "ward_number_raw": "17",
+      "households": {
+        "reported_total_households": 82820,
+        "reported_households_with_waste_segregation": 82820,
+        "d2d_households_listed": 12961,
+        "d2d_households_under_daily_collection": 12961,
+        "d2d_listed_share_of_reported_households_pct": 15.65
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 31.42,
+        "vehicle_dataset_waste_quantity_tpd_raw": 31.4,
+        "street_sweeping_waste_tpd": 2.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 59,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 80,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 814948
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-18",
+      "city": "Pune",
+      "zone_name": "Bhawadi Peth",
+      "zone_name_raw": "Bhawadi Peth",
+      "zone_assignment_status": "source_label",
+      "ward_name": "khadakmal Ali-Mahatma Phule Peth",
+      "ward_number_raw": "18",
+      "households": {
+        "reported_total_households": 54172,
+        "reported_households_with_waste_segregation": 54172,
+        "d2d_households_listed": 13629,
+        "d2d_households_under_daily_collection": 13629,
+        "d2d_listed_share_of_reported_households_pct": 25.16
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 26.71,
+        "vehicle_dataset_waste_quantity_tpd_raw": 26.7,
+        "street_sweeping_waste_tpd": 2.5,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 67,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 814948
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-19",
+      "city": "Pune",
+      "zone_name": "Bhawadi Peth",
+      "zone_name_raw": "Bhawadi Peth",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Lohiya Nagar-Kashewadi",
+      "ward_number_raw": "19",
+      "households": {
+        "reported_total_households": 107936,
+        "reported_households_with_waste_segregation": 107936,
+        "d2d_households_listed": 3445,
+        "d2d_households_under_daily_collection": 3445,
+        "d2d_listed_share_of_reported_households_pct": 3.19
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 18.46,
+        "vehicle_dataset_waste_quantity_tpd_raw": 18.5,
+        "street_sweeping_waste_tpd": 0.6,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 48,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 814948
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-28",
+      "city": "Pune",
+      "zone_name": "Bibwewadi",
+      "zone_name_raw": "Bibwewadi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Salibary Park_ Mukund Nagar",
+      "ward_number_raw": "28",
+      "households": {
+        "reported_total_households": 104156,
+        "reported_households_with_waste_segregation": 104156,
+        "d2d_households_listed": 18368,
+        "d2d_households_under_daily_collection": 18368,
+        "d2d_listed_share_of_reported_households_pct": 17.64
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 56.01,
+        "vehicle_dataset_waste_quantity_tpd_raw": 56,
+        "street_sweeping_waste_tpd": 3.4,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 78,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": 100,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 729688
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-36",
+      "city": "Pune",
+      "zone_name": "Bibwewadi",
+      "zone_name_raw": "Bibwewadi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Bibwewadi-Bibwewadi Gaothan",
+      "ward_number_raw": "36",
+      "households": {
+        "reported_total_households": 124583,
+        "reported_households_with_waste_segregation": 124583,
+        "d2d_households_listed": 18112,
+        "d2d_households_under_daily_collection": 18112,
+        "d2d_listed_share_of_reported_households_pct": 14.54
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 60.03,
+        "vehicle_dataset_waste_quantity_tpd_raw": 60,
+        "street_sweeping_waste_tpd": 3.3,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 75,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 729688
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-37",
+      "city": "Pune",
+      "zone_name": "Bibwewadi",
+      "zone_name_raw": "Bibwewadi",
+      "zone_assignment_status": "source_label",
+      "ward_name": "Upper Indra Nagar",
+      "ward_number_raw": "37",
+      "households": {
+        "reported_total_households": 125894,
+        "reported_households_with_waste_segregation": 125894,
+        "d2d_households_listed": 11847,
+        "d2d_households_under_daily_collection": 11847,
+        "d2d_listed_share_of_reported_households_pct": 9.41
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 35.99,
+        "vehicle_dataset_waste_quantity_tpd_raw": 36,
+        "street_sweeping_waste_tpd": 2.2,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 32,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 729688
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    },
+    {
+      "ward_id": "pune-ward-42(12,7,10,8,9)",
+      "city": "Pune",
+      "zone_name": null,
+      "zone_name_raw": "Ward 42",
+      "zone_assignment_status": "ambiguous_source_value",
+      "ward_name": "Kondhwa-Yelwalewadi,Dhankawadi-Sahakanagar,Hadapsar-Mundhwa,Sinhagad Road,Warje-Karvenagar.",
+      "ward_number_raw": "42(12,7,10,8,9)",
+      "households": {
+        "reported_total_households": 173633,
+        "reported_households_with_waste_segregation": 173633,
+        "d2d_households_listed": 37973,
+        "d2d_households_under_daily_collection": 37973,
+        "d2d_listed_share_of_reported_households_pct": 21.87
+      },
+      "waste": {
+        "reported_total_waste_tonnes_per_day": 66.53,
+        "vehicle_dataset_waste_quantity_tpd_raw": 66.5,
+        "street_sweeping_waste_tpd": 6.9,
+        "commercial_waste_tpd_raw": 0
+      },
+      "bins": {
+        "street_bin_count": 150,
+        "street_bin_size_litres": 70,
+        "commercial_market_details_raw": 0,
+        "community_bin_types_raw": 0,
+        "community_bin_size_litres_raw": 0,
+        "community_bin_purchase_year_raw": 0
+      },
+      "collection_fleet": {
+        "vehicle_types_raw": "Ghanta Gadi, Chota Haati, Tipper",
+        "vehicle_capacities_raw": "3000,1000 & 5000",
+        "purchase_year_range_raw": "2014-2021",
+        "vehicle_count_reported": null,
+        "trip_frequency_raw": "Daily"
+      },
+      "user_charges": {
+        "charges_imposed": "Y",
+        "rate_inr_raw": "50/70/140",
+        "monthly_revenue_raw": 1323204
+      },
+      "routing_data": {
+        "collection_points": [],
+        "coordinates": null,
+        "route_status": "not_route_ready",
+        "missing_requirements": [
+          "individual household/commercial/bin records",
+          "collection-point latitude and longitude",
+          "truck IDs, capacities and current availability",
+          "road-network travel times and restrictions",
+          "collection service time and time windows"
+        ]
+      }
+    }
+  ],
+  "disposal_sites": [
+    {
+      "site_id": "pune-disposal-1",
+      "city": "Pune",
+      "waste_types_raw": "Dry, Wet, Domestic Hazardous, Sanitary waste",
+      "site_type_raw": "Processing sites and SLF",
+      "location_raw": "Urali Devachi",
+      "distance_from_city_center_raw": "33 Km",
+      "operational_since_raw": "23-Nov-20",
+      "reported_quantity_tpd_raw": "300-350 TPD",
+      "coordinates": null
+    }
+  ],
+  "historical_citywide_recycling": [
+    {
+      "year": 2011,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "165 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2012,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "174 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2013,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "176 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2014,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "182 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2015,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "186.2 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2016,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "190 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2017,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "202 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2018,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "208.5 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2019,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "215 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    },
+    {
+      "year": 2020,
+      "geography": "citywide",
+      "ward_name_raw": "entire city",
+      "ward_number_raw": "entire city",
+      "reported_recycled_quantity_raw": "220 MT/day",
+      "source_unit_note": "Source column label says million tonnes, but values are written as MT/day; verify before quantitative use."
+    }
+  ],
+  "routing_configuration": {
+    "mode": "planning_framework_only",
+    "route_objective_priority": [
+      "cover_every_required_collection_point",
+      "respect_vehicle_capacity",
+      "respect_collection_time_windows",
+      "minimize_total_travel_time",
+      "minimize_total_distance",
+      "balance_workload_across_available_trucks"
+    ],
+    "hard_constraints": [
+      "Every required collection point must be assigned to a route or explicitly marked unavailable/unserved.",
+      "A route must not exceed the assigned vehicle's usable capacity without a recorded unloading trip.",
+      "Collection windows and shift end times must be respected.",
+      "A planned stop is not counted as collected until a completion event is recorded.",
+      "Failed stops and breakdowns must trigger reassignment or an explicit unresolved exception."
+    ],
+    "not_computed_from_supplied_files": [
+      "real truck routes",
+      "truck-to-ward assignments",
+      "estimated arrival times",
+      "route distances and durations",
+      "proof of complete household coverage"
+    ]
+  },
+  "data_quality": {
+    "warnings": [
+      "The supplied files describe Pune, not the hypothetical city/9-zone/40-ward example. The master file uses source-supported Pune data.",
+      "There are 42 ward records in the ward-level sources, not 40. Ward 42 has a composite/ambiguous zone label and is left unassigned rather than guessed.",
+      "Household totals and D2D collection household counts differ substantially; they are stored as separate source measures and should not be treated as interchangeable.",
+      "The waste-segregation household count equals the total household count for all source rows; verify whether this reflects real 100% segregation or a data-entry/reporting issue.",
+      "Vehicle fleet count is populated for only a subset of the source records; the single reported count must not be interpreted as a citywide total or copied to every ward.",
+      "The disposal-site source contains only one populated destination record, with no coordinates.",
+      "Historical recycling values are strings such as '165 MT/day' despite a column label mentioning million tonnes. Values are preserved raw pending unit verification.",
+      "No household-level, commercial-point-level or geocoded bin data was supplied. This dataset supports ward-level dashboards and planning, but cannot by itself calculate real road-by-road optimal truck routes or guarantee zero missed stops.",
+      "Blank cells in the original spreadsheets were not filled with invented values. Missing operational values remain null."
+    ],
+    "source_files": [
+      {
+        "source_file": "3e7c2a65-5d0f-49f7-acb3-39f5620b8bd8.csv",
+        "purpose": "ward waste quantities and collection vehicle details",
+        "valid_ward_records": 42
+      },
+      {
+        "source_file": "d59482f0-34fd-4e94-b5ce-5aca51d0beea.csv",
+        "purpose": "disposal site / SLF details",
+        "populated_site_records": 1
+      },
+      {
+        "source_file": "d488decf-9225-46fb-bd09-03d2a86956a9.csv",
+        "purpose": "household totals, segregation and ward waste quantities",
+        "valid_ward_records": 42
+      },
+      {
+        "source_file": "b5cce8dd-b97d-4fb8-8bc3-2ff243f97aef.csv",
+        "purpose": "street bins and community/commercial bin details",
+        "valid_ward_records": 42
+      },
+      {
+        "source_file": "b5b748fd-693c-4bb9-8e1b-6bc6e855d54b.csv",
+        "purpose": "door-to-door collection and user charges",
+        "valid_ward_records": 42
+      },
+      {
+        "source_file": "51496fbf-e8d4-4678-894b-4382e3fdf428.csv",
+        "purpose": "historical citywide recycling/waste quantity series",
+        "records": 10
+      }
+    ]
+  }
+}
